@@ -2,7 +2,6 @@
 import axios from '../../assets/utils/axios';
 import requests from '../../assets/utils/requests';
 import { useState,useEffect } from 'react';
-
 const Banner = () => {
   const [movie, setMovie] = useState({});
 
@@ -59,7 +58,7 @@ console.log(movie);
         </h1>
       </div>
 
-      <div className="banner_fadeBottom" />
+      <div className="banner_fadeBottom"></div>
     </div>
   );
 };
